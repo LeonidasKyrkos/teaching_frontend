@@ -1,22 +1,6 @@
-##### Lunch and Learns Series
+##### Frontend Development Lunch and Learns Series
 
-# What is Frontend development?
-
-## Intro
-
-To understand modern frontend development, it's important to know a bit about its foundations. In day to day work you'll hear references to frameworks like Vue or Angular, but in this series we'll be staying as far away from them as humanly possible. If we get enough interest we can look at running a course on one of those in the future.
-
-For this series; our definition for a website is a handwritten HTML document sitting in a folder on your computer. It wants to include a CSS file to make itself look fancy, and it wants to include a JavaScript file to make itself do cool stuff when the user interacts with it. We'll start by exploring HTML, then CSS, and finally JavaScript.
-
----------
-
-## Setup
-
-Required software:
-
-* [Visual studio code](https://code.visualstudio.com/)
-
----------
+# HTML
 
 ## The basics
 
@@ -152,7 +136,7 @@ There **are** good reasons for writing *semantic markup* or "markup that appropr
 </html>
 ```
 
-If you open the assets folder in this file's directory you will find a file called Hello_world.html. Double click it to see the above HTML rendered in your default browser. Really, for the short term, you only need to care about the things inside the body tag. Everything in the head tag will be meta data or resource related (JS/CSS/favicon). Meta data is important to a website because it describes what your website does, much the same way HTML tags define what the content does. But we can worry about that when we're actually able to build a website that people would like to visit.
+If you open the assets folder in this file's directory you will find a file called Hello_world.html. Double click it to see the above HTML rendered in your default browser. For the short term, you only need to care about the things inside the body tag. Everything in the head tag will be meta data or resource related (JS/CSS/favicon). Meta data is important to a website because it describes what your website is, much the same way HTML tags define what the content is. But we can worry about that when we're actually able to build a website that people would like to visit.
 
 Here's a list of HTML tags that you want to be at least casually familiar with:
 
